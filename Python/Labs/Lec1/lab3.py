@@ -1,0 +1,12 @@
+#function to scan three values fro user
+a=int(input("entre num1"))
+b=int(input("entre num2"))
+c=int(input("entre num3"))
+print(a & b)
+print(a | b)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a > b)
+print(a < b)
