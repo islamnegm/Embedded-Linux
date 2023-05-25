@@ -1,0 +1,17 @@
+from tkinter import *
+window_1 = Tk()
+window_1.title("Hello ")
+lable1=Label(window_1,text="label1")
+lable1.pack(side=TOP)
+window_1.geometry('2000x2000')
+b1=Button(window_1,text="click here")
+b2 = Button(window_1,text="Don'tClickHere")
+b3=  Button(window_1,text="DOnothing")
+b4=  Button(window_1,text="meh")
+
+b1.pack(side=TOP)
+b2.pack(side=RIGHT)
+b3.pack(side=LEFT)
+b4.pack(side=BOTTOM)
+lable1.pack(side=BOTTOM)
+window_1.mainloop()

@@ -1,0 +1,10 @@
+from tkinter import *
+window_1 = Tk()
+window_1.title("Hello ")
+lable1=Label(window_1,text="label1")
+lable1.pack(side=TOP)
+window_1.geometry('100x200')
+b1=Button(window_1,text="negm")
+b1.pack(side=TOP)
+lable1.pack(side=BOTTOM)
+window_1.mainloop()
